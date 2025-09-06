@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-API_URL = os.getenv("BACKEND_URL", "https://chatbot-backend-3zui.onrender.com/")
+API_URL = os.getenv("BACKEND_URL", "https://chatbot-backend-3zui.onrender.com/chat")
 
 st.set_page_config(page_title="LangGraph Agent UI", layout="centered")
 
